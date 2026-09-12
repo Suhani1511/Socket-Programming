@@ -1,14 +1,4 @@
-# Computer Networks: Socket Programming
 
-**Author**: Dhruv Trivedi  
-**Course**: CS 436 - Networks and Distributed Computer Systems  
-**Instructor**: Noura Limam
-
----
-
-## Overview
-
-This project provides a hands-on introduction to TCP and UDP socket programming within a client-server paradigm. The primary functionality is string reversal: a client sends a string to the server over a network, and the server returns its reverse.
 
 The communication follows a two-stage process:
 1. **🛠️ Negotiation Stage**: Through the server's fixed negotiation port (`<n_port>`), the client and server determine a random port (`<r_port>`) for subsequent data transfer.
